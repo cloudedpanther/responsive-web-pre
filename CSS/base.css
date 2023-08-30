@@ -1,0 +1,22 @@
+:root {
+  --desktop-width: 1440px;
+  --tablet-width: 768px;
+  --mobile-width: 375px;
+}
+
+.wrapper {
+  width: var(--desktop-width);
+  margin: 0 auto;
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    width: var(--tablet-width);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: var(--mobile-width);
+  }
+}
