@@ -17,11 +17,14 @@
 }
 
 .logo {
-  position: relative;
   height: 30px;
 
   margin-left: 38px;
 
+  position: relative;
+}
+
+.logo p {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -34,9 +37,7 @@
   cursor: pointer;
 }
 
-.logo::after {
-  content: '';
-
+.logo-deco {
   position: absolute;
   left: calc(55px + 2px);
   bottom: 5px;

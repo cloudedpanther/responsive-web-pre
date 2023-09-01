@@ -353,7 +353,7 @@
 
 @media (max-width: 1440px) {
   .main {
-    padding: 40px 20px;
+    padding: 40px 20px 120px 20px;
   }
 
   .article-container {
